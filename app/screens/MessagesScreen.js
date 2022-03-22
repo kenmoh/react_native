@@ -40,7 +40,14 @@ const MessagesScreen = () => {
             onPress={() =>
               console.log(`Message with ID: ${item.id} Selected !`)
             }
-            renderRightActions={ListItemDeleteAction}
+            renderRightActions={() => (
+              <View
+                style={{
+                  backgroundColor: "red",
+                  width: 70,
+                }}
+              ></View>
+            )}
           />
         )}
         ItemSeparatorComponent={ListItemSeperator}

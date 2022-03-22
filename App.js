@@ -1,6 +1,6 @@
 import { useDimensions } from "@react-native-community/hooks";
 import { StatusBar } from "expo-status-bar";
-import "react-native-gesture-handler";
+
 import {
   StyleSheet,
   View,
