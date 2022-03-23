@@ -3,11 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import colors from "../config/colors";
 
 const ListItemDeleteAction = () => {
-  return (
-    <View style={styles.container}>
-      <Text>ListItemDeleteAction</Text>
-    </View>
-  );
+  return <View style={styles.container}></View>;
 };
 
 const styles = StyleSheet.create({
